@@ -11,6 +11,28 @@
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo {
+  font-family: "Inconsolata";
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.08em;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .box {
@@ -23,8 +45,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 100vh;
   margin: 0 3rem;
+  -webkit-box-flex: 9;
+      -ms-flex: 9;
+          flex: 9;
 }
 
 .container-left {
@@ -73,15 +97,6 @@ button {
   cursor: pointer;
 }
 
-.logo {
-  font-family: "Inconsolata";
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: -0.08em;
-  position: absolute;
-  margin: 2rem 3rem;
-}
-
 @media screen and (max-width: 1000px) {
   .box {
     -webkit-box-orient: vertical;
@@ -99,7 +114,7 @@ button {
 
 @media screen and (max-width: 500px) {
   .logo {
-    margin: 1rem 1.5rem;
+    padding: 1rem;
   }
   .container-left {
     margin: 0;

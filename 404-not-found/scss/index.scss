@@ -15,15 +15,29 @@ $para: #4f4f4f;
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+}
+
+.logo {
+    font-family: "Inconsolata";
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.08em;   
+    padding-top: 2rem;
+    padding-left: 3rem;
+    // padding: 2rem 3rem;
+    flex: 1;
 }
 
 .box {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 100vh;
     margin: 0 3rem;
+    flex: 9;
 }
 
 .container-left {
@@ -35,7 +49,6 @@ img {
     width: 100%;
     display: block;
     margin: 0 auto;
-    
 }
 
 h1 {
@@ -73,17 +86,7 @@ button {
     cursor: pointer;
 }
 
-.logo {
-    font-family: "Inconsolata";
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: -0.08em;
-    position: absolute;
-    margin: 2rem 3rem;
-    
-    // top: 40px;
-    // left: 77px;
-}
+
 
 @media screen and (max-width:1000px) {
     .box {
@@ -95,9 +98,8 @@ button {
 
 
 @media screen and (max-width:500px) {
-    
     .logo {
-        margin: 1rem 1.5rem;
+        padding: 1rem;
     }
     .container-left {
         margin: 0;
