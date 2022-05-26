@@ -7,7 +7,7 @@
  **Wait** | My Team Page
  **Wait** | Interior Consultant
  **Wait** | Recipe Page
- **Wait** | My Gallery
+ ![My Gallery](./assets/my-gallery.jpeg) | [My Gallery](./my-gallery/)
  **Wait** | Checkout Page
  **Wait** | Edie Homepage
  **Wait** | Portfolio
