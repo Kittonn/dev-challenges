@@ -22,7 +22,7 @@
             <span class="material-icons"> delete_outline </span>
           </button>
         </div>
-      </div>
+      </div> 
     {:else}
       <div class="item">
         <input class="checkbox" type="checkbox" bind:checked={item.finish} />
