@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+img {
+  max-width: 238px;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0 3rem;
+padding: 0 3rem;
+  h1 {
+    font-family: "PT Serif";
+    font-weight: 700;
+    font-size: 36px;
+    
+  }
+  #title-right {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  p {
+      font-family: "Poppins";
+      font-weight: 400;
+      font-size: 18px;
+      max-width: 440px;
+  }
+}
+
+main {
+    margin-bottom: 4rem;
+  .img-content {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    justify-items: center;
+    .img:nth-child(3n + 2) {
+      margin-top: 100px;
+    }
+    .img {
+        margin: 0 1rem;
+      .img-top {
+        display: flex;
+        img {
+            margin-right: 0.5rem;
+        }
+        p {
+          writing-mode: vertical-rl;
+          text-transform: uppercase;
+          font-family: "PT Serif";
+          font-weight: 400;
+          font-size: 12px;
+        }
+      }
+      h6 {
+          margin-top: 1rem;
+          font-family: "Poppins";
+          font-weight: 600;
+          font-size: 18px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:900px) {
+    header {
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+       p {
+           margin-top: 1rem;
+       }
+        }
+}
+
+@media screen and (max-width:600px) {
+    header {
+        h1 {
+            font-size: 36px;
+        }
+        p {
+            font-size: 14px;
+        }
+        #title-right {
+            font-size: 18px;
+        }
+    }
+   main {
+    .img-content {
+        grid-template-columns: repeat(2,minmax(0,1fr));
+        grid-template-rows: repeat(3,auto);
+        .img:nth-child(3n + 2) {
+            margin-top: 0px;
+          }
+        .img:nth-child(2n + 2) {
+            margin-top: 100px;
+        }
+        .img {
+            .img-top {
+                p {
+                    font-size: 12px;
+                }
+                img {
+                    margin-right: 0.25rem;
+                }
+            }
+            h6 {
+                font-size: 14px;
+            }
+        }
+    }
+   }
+}

@@ -4,7 +4,7 @@
 **Preview** | **Name**
 :--: | :--:
 ![404 Not Found](./assets/404-not-found.jpeg) | [404 Not Found](./404-not-found/)
- **Wait** | My Team Page
+![My Team Page](./assets/team-page.jpeg) | [My Team Page](./my-team-page/)
  **Wait** | Interior Consultant
  **Wait** | Recipe Page
  ![My Gallery](./assets/my-gallery.jpeg) | [My Gallery](./my-gallery/)
