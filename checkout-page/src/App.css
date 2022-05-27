@@ -38,3 +38,15 @@
     color: var(--gray);
 }
 
+@media screen and (max-width:750px) {
+ .box {
+     flex-direction: column-reverse;
+ }   
+}
+
+@media screen and (max-width:450px) {
+    .title {
+        padding: 0;
+        margin-bottom: 1.5rem;
+    }
+}

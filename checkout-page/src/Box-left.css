@@ -1,6 +1,7 @@
 .box-left {
-    max-width: 600px;
+    /* max-width: 600px; */
     padding: 2rem;
+    width: 100%;
 }
 
 h3 {
@@ -57,4 +58,12 @@ label {
 .align-right {
     display: flex;
     justify-content: end;
+
+}
+
+@media screen and (max-width:450px) {
+    .box-left {
+        padding: 0;
+        margin-bottom: 4rem;
+    }
 }

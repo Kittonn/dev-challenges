@@ -1,5 +1,7 @@
 <script lang="ts">
   import "../../Box-right.css";
+  let count1: number = 1;
+  let count2: number = 1;
 </script>
 
 <div class="box-right">
@@ -16,9 +18,9 @@
             <p>$94.99</p>
           </div>
           <div class="count">
-            <button>-</button>
-            <h5>1</h5>
-            <button>+</button>
+            <button on:click={() => (count1 -= 1)}>-</button>
+            <h5>{count1}</h5>
+            <button on:click={() => (count1 += 1)}>+</button>
           </div>
         </div>
       </div>
@@ -33,9 +35,9 @@
             <p>$124.99</p>
           </div>
           <div class="count">
-            <button>-</button>
-            <h5>1</h5>
-            <button>+</button>
+            <button on:click={() => (count2 -= 1)}>-</button>
+            <h5>{count2}</h5>
+            <button on:click={() => (count2 += 1)}>+</button>
           </div>
         </div>
       </div>
