@@ -17,7 +17,7 @@
  **Wait** | Button Component
  **Wait** | Input Component
  **Wait** | Windbnb
- **Wait** | Todo App
+ ![Todo App](./assets/todo-app.jpeg) | [Todo App](./todo-app/)
  **Wait** | Random Quote Generator
  **Wait** | Country Quiz
  **Wait** | Weather App
