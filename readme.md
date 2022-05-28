@@ -8,7 +8,7 @@
  **Wait** | Interior Consultant
  **Wait** | Recipe Page
  ![My Gallery](./assets/my-gallery.jpeg) | [My Gallery](./my-gallery/)
- **Wait** | Checkout Page
+![Checkout Page](./assets/checkout-page.jpeg) | [Checkout Page](./checkout-page/)
  **Wait** | Edie Homepage
  **Wait** | Portfolio
 ### Front-End Web Developer
