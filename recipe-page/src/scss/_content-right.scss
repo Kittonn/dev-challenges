@@ -1,0 +1,41 @@
+.content-right {
+  .card {
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem 3rem;
+
+    .time-box {
+      display: flex;
+      align-items: center;
+    padding: 1.5rem 0;
+      
+      .time-box-left {
+          .iconOr {
+              color: $orange;
+          }
+        i {
+            font-size: 40px;
+            color: $gray-2;
+        }
+        margin-right: 1rem;
+      }
+      .time-box-right {
+        p {
+          text-transform: uppercase;
+          font-weight: 700;
+          color: $gray-4;
+          font-size: 10px;
+        }
+        h3 {
+            font-family: "Montserrat";
+            font-weight: 500;
+            color: $gray-1;
+            font-size: 14px;
+        }
+        .textOr {
+            color: $orange;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap');
+@import "./colors";
+@import "./content-left";
+@import "./content-right";
+@import "./header";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+}
+
+p,label {
+    font-family: "Montserrat";
+}
+
+h1,h2,h6 {
+    font-family: "Playfair Display";
+}
+
+
+.content {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
