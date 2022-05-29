@@ -5,7 +5,7 @@
 <div class="content-right">
   <div class="card">
     {#each time as item (item.id)}
-      <div class="time-box">
+      <div class="time-box" class:full={item.iconOr}>
         <div class="time-box-left">
           <i class:iconOr={item.iconOr} class="far fa-clock" />
         </div>

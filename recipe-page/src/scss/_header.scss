@@ -9,6 +9,7 @@
     align-items: flex-start;
     img {
         margin-top: 5px;
+        margin-right: 1rem;
     }
     p {
       
@@ -20,8 +21,23 @@
     }
   }
   .banner {
+    
     img {
+      border-radius: 12px;
         width: 100%;
       }
+  }
+}
+
+@media screen and (max-width:630px) {
+  .header {
+    h1 {
+      font-size: 24px;
+    }
+    .paragraph {
+      p {
+        font-size: 12px;
+      }
+    }
   }
 }

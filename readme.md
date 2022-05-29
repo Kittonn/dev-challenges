@@ -6,7 +6,7 @@
 ![404 Not Found](./assets/404-not-found.jpeg) | [404 Not Found](./404-not-found/)
 ![My Team Page](./assets/team-page.jpeg) | [My Team Page](./my-team-page/)
  **Wait** | Interior Consultant
- **Wait** | Recipe Page
+![Recipe Page](./assets/recipe-page.jpeg) | [Recipe Page](./recipe-page/)
  ![My Gallery](./assets/my-gallery.jpeg) | [My Gallery](./my-gallery/)
 ![Checkout Page](./assets/checkout-page.jpeg) | [Checkout Page](./checkout-page/)
  **Wait** | Edie Homepage

@@ -32,3 +32,8 @@ h1,h2,h6 {
     display: flex;
     justify-content: space-between;
 }
+@media screen and (max-width:860px) {
+    .content {
+        flex-direction: column-reverse;
+    }
+}
