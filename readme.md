@@ -10,7 +10,7 @@
  ![My Gallery](./assets/my-gallery.jpeg) | [My Gallery](./my-gallery/)
 ![Checkout Page](./assets/checkout-page.jpeg) | [Checkout Page](./checkout-page/)
  **Wait** | Edie Homepage
- **Wait** | Portfolio
+![Portfolio](./assets/portfolio.jpeg) | [Portfolio](./portfolio/)
 ### Front-End Web Developer
 **Preview** | **Name**
 :--: | :--:
