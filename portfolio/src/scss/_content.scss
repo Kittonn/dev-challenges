@@ -1,0 +1,10 @@
+.content {
+    display: flex;
+    .content-left {
+        flex: 4;
+    }
+    .content-right {
+        margin-left: 2rem;
+        flex: 6;
+    }
+}

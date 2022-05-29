@@ -1,45 +1,48 @@
 .profile {
-    background-color: white;
-    display: flex;
-    padding: 1.5rem;
-    border-radius: 0.75rem;
-  .profile-left{
-      max-width: 272px;
-      max-height: 267px;
-      overflow: hidden;
-      margin-right: 1.5rem;
-      border-radius: 12px;
+  background-color: white;
+  display: flex;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  margin-bottom: 2.5rem;
+  .profile-left {
+    max-width: 272px;
+    max-height: 267px;
+    overflow: hidden;
+    margin-right: 1.5rem;
+    border-radius: 12px;
     img {
-        margin-top: -10%;
-        width: 100%;
+      margin-top: -10%;
+      width: 100%;
     }
   }
   .profile-right {
-      width: 100%;
+    width: 100%;
     .name-box {
-        display: flex;
-        justify-content: space-between;
-        h2,p {
-            color: $gray-2;
-        }
-        p {
-            font-size: 18px;
-        }
+      display: flex;
+      justify-content: space-between;
+      h2,
+      p {
+        color: $gray-2;
+        margin-bottom: 0.5rem;
+      }
+      p {
+        font-size: 18px;
+      }
       .name-box-left {
-          h2 {
-              font-size: 24px;
-          }
-          .job {
-            color: $gray-3;
-          }
+        h2 {
+          font-size: 24px;
+        }
+        .job {
+          color: $gray-3;
+        }
       }
     }
     .profile-paragraph {
-        margin-top: 2rem;
-        color: $gray-3;
-        p {
-            margin-bottom: 1.25rem;
-        }
+      margin-top: 2rem;
+      color: $gray-3;
+      p {
+        margin-bottom: 1.25rem;
+      }
     }
   }
 }
