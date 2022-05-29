@@ -1,0 +1,31 @@
+.select-tap {
+    display: flex;
+    justify-content: end;
+    i,p {
+        padding: 0.5rem;
+        border: 1px solid $gray-2;
+        display: block;
+        min-height: 36px;
+        color: $gray-2;
+        border-radius: 4px;
+        min-width: 36px;
+        text-align: center;
+        margin: 0.5rem;
+        cursor: pointer;
+    }
+    .active {
+        color: white;
+        border: 1px solid $blue;
+        background-color: $blue;   
+    }
+}
+
+@media screen and (max-width:480px) {
+    .select-tap {
+        justify-content: center;
+        i,p {
+            margin: 0.15rem;
+        }
+    }
+    
+}

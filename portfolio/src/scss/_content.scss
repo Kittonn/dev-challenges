@@ -1,10 +1,26 @@
 .content {
     display: flex;
+    height: fit-content;
     .content-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         flex: 4;
     }
     .content-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         margin-left: 2rem;
         flex: 6;
+    }
+}
+
+@media screen and (max-width:830px) {
+    .content {
+        flex-direction: column;
+        .content-right {
+            margin-left: 0;
+        }
     }
 }

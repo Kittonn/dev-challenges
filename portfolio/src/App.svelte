@@ -5,6 +5,8 @@
   import Project from "./lib/Components/project.svelte";
   import Blog from "./lib/Components/blog.svelte";
   import Experience from "./lib/Components/experience.svelte";
+  import ProjectCard from "./lib/Components/projectCard.svelte";
+  import SelectTap from "./lib/Components/selectTap.svelte";
 </script>
 
 <div class="container">
@@ -21,4 +23,6 @@
   </div>
 
   <Project />
+  <ProjectCard />
+  <SelectTap />
 </div>

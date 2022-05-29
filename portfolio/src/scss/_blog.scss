@@ -15,11 +15,13 @@
                 max-width: 178px;
             }
             #para-title {
+                margin-top: 0.5rem;
                 color: $gray;
                 font-size: 24px;
             }
         }
         .blog-img {
+            margin-left: 1rem;
             margin-top: 1rem;
             width: 360px;
             height: 321px;
@@ -37,6 +39,7 @@
             max-width: 492px;
             color: $gray-3;
             margin-bottom: 1rem;
+            padding-right: 1.5rem;
         }
     }
     a {
