@@ -1,24 +1,12 @@
 # Dev-Challenges
 
 ### Responsive Web Developer
-**Preview** | **Name**
-:--: | :--:
-![404 Not Found](./assets/404-not-found.jpeg) | [404 Not Found](./404-not-found/)
-![My Team Page](./assets/team-page.jpeg) | [My Team Page](./my-team-page/)
- **Wait** | Interior Consultant
-![Recipe Page](./assets/recipe-page.jpeg) | [Recipe Page](./recipe-page/)
- ![My Gallery](./assets/my-gallery.jpeg) | [My Gallery](./my-gallery/)
-![Checkout Page](./assets/checkout-page.jpeg) | [Checkout Page](./checkout-page/)
- **Wait** | Edie Homepage
-![Portfolio](./assets/portfolio.jpeg) | [Portfolio](./portfolio/)
-### Front-End Web Developer
-**Preview** | **Name**
-:--: | :--:
- **Wait** | Button Component
- **Wait** | Input Component
- **Wait** | Windbnb
- ![Todo App](./assets/todo-app.jpeg) | [Todo App](./todo-app/)
- **Wait** | Random Quote Generator
- **Wait** | Country Quiz
- **Wait** | Weather App
-**Wait** | Github Jobs
+**Link:** [Certificate](https://devchallenges.io/certificates/7yPMdXBcacDfSxCtrHUf)
+- [x] [404 Not Found](./404-not-found/)
+- [x] [My Team Page](./my-team-page/)
+- [x] [Interior Consultant](./interior-consultant/)
+- [x] [Recipe Page](./recipe-page/)
+- [x] [My Gallery](./my-gallery/)
+- [x] [Checkout Page](./checkout-page/)
+- [x] [Edie HomePage](./edie-homepage/)
+- [x] [Portfolio](./portfolio/)

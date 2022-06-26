@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#181719]
+}
+
+header h1 {
+  font-family: 'Crimson Pro';
+}
+
+p {
+  @apply font-['Montserrat']
+}
+
+
+.active {
+  @apply font-bold border-white border-b-2 
+}
+
+@media screen and (max-width:768px) {
+  .full-nav {
+    @apply min-h-screen
+  }
+}
