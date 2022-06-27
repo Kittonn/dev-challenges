@@ -1,5 +1,5 @@
 {
-  "name": "checkout-page",
+  "name": "vite-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,9 +14,16 @@
     "@tsconfig/svelte": "^2.0.1",
     "svelte": "^3.44.0",
     "svelte-check": "^2.2.7",
-    "svelte-preprocess": "^4.9.8",
+    "svelte-preprocess": "^4.10.7",
     "tslib": "^2.3.1",
     "typescript": "^4.5.4",
     "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "sass": "^1.53.0",
+    "svelte-icons-pack": "^1.4.6",
+    "tailwindcss": "^3.1.4"
   }
 }

@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply font-['Montserrat']
+}
+
+label {
+  @apply text-[#4F4F4F] text-[10px] sm:text-[12px] font-semibold
+}
+
+h3 {
+  @apply text-sm sm:text-lg font-semibold text-[#333]
+}
+
+input {
+  @apply text-[#828282] text-xs sm:text-base border-2 border-[#828282] rounded-xl py-2 pr-4  pl-10
+}
+
+input[type='text'] {
+  @apply w-full
+}
+
+.inputBox {
+  @apply relative mb-3
+}
+
+.icon {
+  @apply absolute top-[10px] left-[10px]
+}
+
+img {
+  @apply max-w-[120px] sm:max-w-[135px] rounded-[13px] mr-4
+}
+
+h5 {
+  @apply text-xs sm:text-base text-[#4E5150] font-semibold
+}
+
+h6 {
+  @apply text-sm sm:text-base text-[#F2994A] font-semibold mr-4
+}
+
+span {
+  @apply text-[10px] sm:text-[12px] font-semibold text-[#4E5150] line-through
+}
+
+.btn-symbol {
+  @apply bg-[#E0E0E0] text-[#828282] w-[20px] h-[20px]
+}
