@@ -8,8 +8,8 @@
   const handleReset = () => {
     store.update((item) => item.filter((data) => data.completed !== true));
   };
-  const handleDelete = (text) => {
-    store.update((item) => item.filter((data) => data.text !== text));
+  const handleDelete = (id) => {
+    store.update((item) => item.filter((data) => data.id !== Number(id)));
   };
 </script>
 
@@ -19,9 +19,9 @@
       <div class="mb-2 flex justify-between items-center">
         <div>
           <input type="checkbox" name="" id="" bind:checked={item.completed} />
-          <label for="">{item.text}</label>
+          <label for="" class:textCompleted={item.completed}>{item.text}</label>
         </div>
-        <button class="" on:click={() => handleDelete(item.text)}>
+        <button class="" on:click={() => handleDelete(item.id)}>
           <Icon src={AiOutlineDelete} size="22" color="#BDBDBD" />
         </button>
       </div>

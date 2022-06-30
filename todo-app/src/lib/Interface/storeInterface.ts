@@ -1,4 +1,5 @@
 export interface storeI {
   text:string,
-  completed: boolean
+  completed: boolean,
+  id:number,
 }

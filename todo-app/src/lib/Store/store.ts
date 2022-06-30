@@ -1,7 +1,7 @@
 import { writable } from "svelte/store";
 import type { storeI } from "../Interface/storeInterface";
 
-const store = writable<storeI[]>(JSON.parse(localStorage.getItem("data")) || []);
+const store = writable<storeI[]>([]);
 
-store.subscribe((value) => (localStorage.data = JSON.stringify(value)));
+
 export default store;

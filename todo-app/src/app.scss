@@ -22,3 +22,7 @@ input[type="text"] {
 label {
   @apply font-medium text-lg font-['Montserrat']
 }
+
+.textCompleted {
+  @apply line-through;
+}

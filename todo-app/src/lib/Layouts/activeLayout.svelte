@@ -3,7 +3,11 @@
   let inputText;
   $: data = $store.filter(item=>item.completed === false);
   const handleAdd = () => {
-    store.update((item) => [...item, { text: inputText, completed: false }]);
+    if (inputText === '' || inputText === undefined) {
+      console.log("No text!!!");
+    } else {
+    store.update((item) => [...item, { text: inputText, completed: false,id: new Date().getTime() }]);
+    }
     inputText = ""
   };
 </script>
@@ -19,7 +23,7 @@
     {#each data as item}
       <div class="mb-2">
         <input type="checkbox" name="" id="" bind:checked={item.completed} />
-        <label for="">{item.text}</label>
+        <label for="" class:textCompleted={item.completed}>{item.text}</label>
       </div>
     {/each}
   </div>  
