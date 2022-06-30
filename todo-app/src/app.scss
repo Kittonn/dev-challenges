@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Raleway:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  @apply border-b-[#2F80ED]
+}
+
+input[type="text"] {
+  @apply border-[#BDBDBD] border-[1px] rounded-xl py-3 px-4 text-sm font-['Montserrat'] font-normal max-w-[476px] w-full;
+}
+
+.add {
+  @apply bg-[#2F80ED] border-[1px] border-[#2F80ED] text-white font-['Montserrat'] py-3 px-6 font-semibold text-sm rounded-xl;
+}
+
+.form-container {
+  @apply flex justify-between items-center mb-4;
+}
+
+label {
+  @apply font-medium text-lg font-['Montserrat']
+}
